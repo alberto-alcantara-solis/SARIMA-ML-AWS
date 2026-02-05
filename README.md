@@ -28,20 +28,28 @@ The system is designed following modern **MLOps and Data Engineering best practi
 ## 🧠 Key Engineering Competencies Demonstrated
 
 ✔ End-to-end ML system design
+
 ✔ Production-grade ETL pipelines
+
 ✔ Containerized ML workloads
+
 ✔ Infrastructure security (IAM least privilege)
+
 ✔ Cost-efficient cloud architecture
+
 ✔ Automated retraining workflows
+
 ✔ Model evaluation and validation
+
 ✔ Cloud-native observability
+
 ✔ Reproducible deployments
 
 This project reflects how I work in professional environments: owning the full lifecycle from raw data to production output.
 
 ---
 
-## 🏗️ System Architecture
+## 🏗️ System Architecture (Simplified)
 
 ```
 Eurostat API
@@ -68,7 +76,7 @@ SageMaker Processing (Docker/ECR)
 DynamoDB (Predictions)
 ```
 
-![AWS Architecture Diagram](Images/AWS_Architecture_Diagram.png)
+You can see the AWS Architecture Diagram in the **Images & Screenshots** section
 
 ### Architecture Principles
 
@@ -204,29 +212,6 @@ Designed to minimize idle resources:
 
 ---
 
-## 🌍 Configuration
-
-### Environment Variables
-
-**Ingestion Lambda**
-
-```
-DATA_URL
-DATA_BUCKET
-DATA_KEY
-```
-
-**Orchestration Lambda**
-
-```
-ARN_ROLE
-IMAGE_URI
-```
-
-All secrets managed via AWS-native mechanisms.
-
----
-
 ## 📈 Observability & Monitoring
 
 * Centralized CloudWatch logs
@@ -238,7 +223,7 @@ This enables root-cause analysis and operational stability.
 
 ---
 
-## 📸 Screenshots
+## 📸 Images & Screenshots
 
 * AWS Architecture Diagram
 ![AWS Architecture Diagram](Images/AWS_Architecture_Diagram.png)
