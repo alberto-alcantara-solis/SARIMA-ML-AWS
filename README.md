@@ -27,15 +27,15 @@ The system is designed following modern **MLOps and Data Engineering best practi
 
 ## 🧠 Key Engineering Competencies Demonstrated
 
-✔ End-to-end ML system design
-✔ Production-grade ETL pipelines
-✔ Containerized ML workloads
-✔ Infrastructure security (IAM least privilege)
-✔ Cost-efficient cloud architecture
-✔ Automated retraining workflows
-✔ Model evaluation and validation
-✔ Cloud-native observability
-✔ Reproducible deployments
+- End-to-end ML system design ✔ 
+- Production-grade ETL pipelines ✔ 
+- Containerized ML workloads ✔ 
+- Infrastructure security (IAM least privilege) ✔ 
+- Cost-efficient cloud architecture ✔ 
+- Automated retraining workflows ✔ 
+- Model evaluation and validation ✔ 
+- Cloud-native observability ✔ 
+- Reproducible deployments ✔ 
 
 This project reflects how I work in professional environments: owning the full lifecycle from raw data to production output.
 
